@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="card">
+  <div class="card-body">
+<label>Primeira Coluna</label>
+<input type="checkbox" name="primeira-coluna-pagamentos" class="pagamentos">
+<label>Segunda Coluna Coluna</label>
+<input type="checkbox" name="segunda-coluna-pagamentos" class="pagamentos">
+</div>
+</div>
+<table class="table">
+<thead>
+<tr>
+<th class="primeira-coluna-pagamentos">PRIMEIRA COLUNA HEAD</th>
+<th class="segunda-coluna-pagamentos">SEGUNDA COLUNA HEAD</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="primeira-coluna-pagamentos">PRIMEIRA COLUNA BODY</td>
+<td class="segunda-coluna-pagamentos">SEGUNDA COLUNA BODY</td>
+</tr>
+</tbody>
+
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="geral.js"></script>
+<script>
+ carregamentoInicial("pagamentos");
+</script>
+</body>
+</html>

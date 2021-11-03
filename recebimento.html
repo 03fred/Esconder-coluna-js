@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="card">
+  <div class="card-body">
+<label>Primeira Coluna</label>
+<input type="checkbox" name="primeira-coluna-recebimentos" class="recebimentos">
+<label>Segunda Coluna Coluna</label>
+<input type="checkbox" name="segunda-coluna-recebimentos" class="recebimentos">
+</div>
+</div>
+
+<table class="table">
+<thead>
+<tr>
+<th class="primeira-coluna-recebimentos">PRIMEIRA COLUNA HEAD</th>
+<th class="segunda-coluna-recebimentos">SEGUNDA COLUNA HEAD</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="primeira-coluna-recebimentos">PRIMEIRA COLUNA BODY</td>
+<td class="segunda-coluna-recebimentos">SEGUNDA COLUNA BODY</td>
+</tr>
+</tbody>
+
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="geral.js"></script>
+<script>
+ carregamentoInicial("recebimentos");
+</script>
+</body>
+</html>
